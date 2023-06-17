@@ -1,0 +1,265 @@
+body
+{
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	background-color: #fff;
+}
+
+header
+{
+	/* Profe, inserto a continuación una imagen de fondo en el header, pero no sé si es la manera correcta, 
+	ya que no encontré referencia en internet para hacerlo desde el HTML. */
+	background: url(imagenes/taller.jpg);
+	background-size: cover;
+	height: 10%;
+    width: 100%;
+	/* Hasta acá, todo el agregado que hice copiando lo que vi en un video. Corregime por favor si lo estoy haciendo mal. */
+	
+	margin-bottom: 0em;
+	text-align: center;
+	font-size: 80%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-family: Bebas, Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+}
+
+
+.fotologo img {	
+	border-radius: 10em;
+	width: 15em;
+}
+
+	
+h1{
+   color: #000;
+   text-align: center;
+   font-family: Segoe UI; /* Esta tipografía la agregué, pero no sé si se va a ver correctamente en todos los navegadores. */
+   margin-top: 1.5em;
+   font-size: 330%;
+   letter-spacing: 0.1em;
+   line-height: 120%;
+}
+
+nav
+{ 
+   font-family: Segoe UI, Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+   background-color: #191d20;
+   text-align: center;
+   width: 100%;
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+nav a:link,a:visited { 
+	text-align: center;
+	color: #fff;
+	padding: 0.5em;
+	text-decoration: none;
+	font-size:90%;
+}
+	
+nav a:hover { 
+	text-align: center;
+	background-color: #fff;
+	color: #191d20;
+	text-decoration: none;
+	font-weight: bold;
+}
+	
+	nav a:active { 
+	font-weight: bold;
+}
+
+section {
+	margin-right: auto;
+	margin-left: auto;
+	width: 85%;
+	font-size: 95%;
+	text-align: center;
+	background-color: #fff;
+	color: #191d20;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	line-height: 150%;	
+}
+
+   /* del index y corte cnc */
+.fotoproducto {
+	padding: 1em;
+	margin: auto;
+	float: left;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+	font-size: 80%;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	margin-bottom: 3em;
+}
+
+.fotoproducto img {	
+    width: 100%;
+	margin: center;
+	text-align: center;
+}
+
+  /* denosotros */
+.fotobanner img {	
+    width: 50%;
+	margin: center;
+	text-align: center;
+	float: right;
+	margin: 1em;
+	border: 3px solid #191d20;
+}
+
+.textocentral {	
+    margin-right: auto;
+	margin-left: 2em;
+	width: 85%;
+	font-size: 95%;
+	text-align: right;
+	background-color: #fff;
+	color: #191d20;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	line-height: 150%;	
+}
+   
+ h3{
+   color: #191d20;
+   text-align: center;
+   font-family: Segoe UI;
+   margin-top: 2em;
+   font-size: 120%;
+   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+   margin: center;
+   clear: both;
+ }
+   
+ .enlacecta {	
+	color: #191d20;
+	text-align: center;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	margin-bottom: 4em;	
+	text-decoration: none;
+}
+
+ .enlacecta a:link {	
+	color: #191d20;
+	border: 3px solid #191d20;
+	padding: 0.5em;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+			
+}
+
+.enlacecta a:visited {	
+	color: #191d20;
+	border: 3px solid #191d20;
+	text-align: center;
+	padding: 0.5em;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+}
+	
+.enlacecta a:active {	
+	color: #191d20;
+	border: 3px solid #191d20;
+	text-align: center;
+	padding: 0.5em;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+}
+
+.enlacecta a:hover {	
+	color: #fff;
+	border: 3px solid #191d20;
+	background-color: #191d20;
+	text-align: center;
+	padding: 0.5em;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	font-size: 90%
+}
+
+footer {
+	text-align: center;
+    color: #191d20;
+    background-color: #191d20;
+    width: 100%;
+    padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	margin-bottom: 0em;
+	display: flex;
+	justify-content: space-around;
+}
+
+.enlacefooterig img {	
+	float: left;
+	width: 2em;
+	padding-left: 30em;
+}
+
+.enlacefooterub img {	
+	float: center;
+	width: 2em;
+}
+
+.enlacefooterfb img {	
+	float: right;
+	width: 2em;
+	padding-right: 30em;
+}
+
+.infocnc {	
+    background-color: #000;
+	color: #fff;
+	margin-right: auto;
+	margin-left: 2em;
+	width: 20%;
+	font-size: 95%;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	line-height: 150%;
+    float: left;	
+    padding: 1em;	
+	text-align: center;
+	font-size: 80%;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	margin-bottom: 3em;
+}
+
+.bannercnc {	
+    background-color: #191d20;
+	color: #fff;
+	width: 100%;
+	font-size: 50%;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	line-height: 200%;
+    padding: 1em;	
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	margin-bottom: 3em;
+}
+
+ h4{
+   color: #191d20;
+   text-align: center;
+   font-family: Segoe UI;
+   font-size: 180%;
+   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+   margin: center;
+   clear: both;
+ }
+ 
+ .itemscontacto {	
+    background-color: #191d20;
+	color: #fff;
+	width: 100%;
+	font-size: 80%;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	line-height: 200%;
+    padding: 1em;	
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	margin-bottom: 3em;
+}
